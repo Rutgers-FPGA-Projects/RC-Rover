@@ -1,0 +1,12 @@
+
+State Machine - |IR|Next_State
+Name Next_State~6 Next_State~5 
+Next_State.IDLE 0 0 
+Next_State.GUIDANCE 0 1 
+Next_State.DATAREAD 1 0 
+
+State Machine - |IR|Present_State
+Name Present_State~3 Present_State~2 
+Present_State.IDLE 0 0 
+Present_State.GUIDANCE 0 1 
+Present_State.DATAREAD 1 0 
